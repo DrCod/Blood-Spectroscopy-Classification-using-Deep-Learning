@@ -10,10 +10,12 @@ More info about the challenge - https://zindi.africa/competitions/bloodsai-blood
 
 Train example:
 - Using single input:
+
 python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
                 --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type single
                 
         
--Using multi-input;
+-Using multi-input:
+
 python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
                 --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type double
