@@ -8,14 +8,15 @@ The ultimate goal of this project is to accurately identify the status(high/low/
 
 More info about the challenge - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
 
-Train example:
+Train examples:
+
 - Using single input:
 
-python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
-                --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type single
+  python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
+                  --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type single
                 
         
--Using multi-input:
+- Using multi-input:
 
-python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
-                --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type double
+  python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
+                  --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type double
