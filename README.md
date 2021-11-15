@@ -13,10 +13,14 @@ Train examples:
 - Using single input:
 
   python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
-                  --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type single
+                  --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type single --model_name NN
                 
         
 - Using multi-input:
 
   python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
-                  --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type double
+                  --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type double --model_name NN
+
+Run submission inference:
+
+python make_submission.py --model_name NN --submission_dir path/to/submissions
