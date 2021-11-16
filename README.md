@@ -1,5 +1,6 @@
 # Blood-Spectroscopy-Classification-using-Deep-Learning
 My solution code to a machine learning problem from Zinid.Africa.
+
 My approach utilizes FFT features to train a neural network architecture in a single/multi-input fashion.
 
 Although I am continuously thinking of different angles to arrive at an optimal solution, I believe that FFT features and unsupervised feature learning techniques will be worth exploring further ,whilst bearing in mind the issue of overfitting.
