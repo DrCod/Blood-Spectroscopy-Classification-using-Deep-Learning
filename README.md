@@ -10,7 +10,7 @@ The ultimate goal of this project was to accurately identify the levels of diffe
 
 More info about the challenge and datasets acquisition can be found here - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
 
-Train examples:
+# How to ran starter scripts in single/multi-input modes 
 
 - Using single input:
 
