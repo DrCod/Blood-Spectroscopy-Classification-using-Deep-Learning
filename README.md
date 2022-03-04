@@ -2,11 +2,13 @@
 
 A starter solution code(including the best final solution iteration) to a machine learning problem from Zindi.Africa.
 
+Final notebook - https://github.com/DrCod/Blood-Spectroscopy-Classification-using-Deep-Learning/blob/main/Final%20Solution%20Implementation.ipynb
+
 Starter iteration utilized FFT features to train a neural network architecture in a single/multi-input fashion.
 
 The ultimate goal of this project was to accurately identify the levels of different blood-based substrates from Near-Infra Reflectance(NIR) spectral data.
 
-More info about the challenge can be found here - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
+More info about the challenge and datasets acquisition can be found here - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
 
 Train examples:
 
