@@ -1,13 +1,12 @@
 # Blood-Spectroscopy-Classification-using-Deep-Learning
-My solution code to a machine learning problem from Zinid.Africa.
 
-My approach utilizes FFT features to train a neural network architecture in a single/multi-input fashion.
+A starter solution code(including the best final solution iteration) to a machine learning problem from Zindi.Africa.
 
-Although I am continuously thinking of different angles to arrive at an optimal solution, I believe that FFT features and unsupervised feature learning techniques will be worth exploring further ,whilst bearing in mind the issue of overfitting.
+Starter iteration utilized FFT features to train a neural network architecture in a single/multi-input fashion.
 
-The ultimate goal of this project is to accurately identify the status(high/low/okay) of the substrates of interest in every given blood spectrum.
+The ultimate goal of this project was to accurately identify the levels of the different substrates of interest in a given blood spectrum.
 
-More info about the challenge - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
+More info about the challenge can be found here - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
 
 Train examples:
 
