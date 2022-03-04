@@ -4,7 +4,7 @@ A starter solution code(including the best final solution iteration) to a machin
 
 Starter iteration utilized FFT features to train a neural network architecture in a single/multi-input fashion.
 
-The ultimate goal of this project was to accurately identify the levels of the different substrates of interest in a given blood spectrum.
+The ultimate goal of this project was to accurately identify the levels of different blood-based substrates from Near-Infra Reflectance(NIR) spectral data.
 
 More info about the challenge can be found here - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
 
