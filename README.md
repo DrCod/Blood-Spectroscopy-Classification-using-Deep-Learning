@@ -6,7 +6,7 @@ Final notebook - https://github.com/DrCod/Blood-Spectroscopy-Classification-usin
 
 Starter iteration utilized FFT features to train a neural network architecture in a single/multi-input fashion.
 
-The ultimate goal of this project was to accurately identify the levels of different blood-based substrates from Near-Infra Red Reflectance(NIR) spectral data.
+The ultimate goal of this project was to accurately identify the levels of different blood-based substrates from Near-Infrared Reflectance(NIR) spectral data.
 
 More info about the challenge and datasets acquisition can be found here - https://zindi.africa/competitions/bloodsai-blood-spectroscopy-classification-challenge
 
