@@ -26,3 +26,13 @@ Full description of challenge and datasets acquisition can be accessed [here](ht
 # ran inference
 
 python make_submission.py --model_name NN --submission_dir path/to/submissions
+
+# [Leaderboard](https://zindi.africa/competitions/umojahack-africa-2022-advanced-challenge/leaderboard)
+
+Rank : 14/265
+
+# Authors
+
+| Name        | Zindi ID           | Github ID  |
+| ------------- |:-------------:| -----:|
+| Ronny Polle      | [@100i](https://zindi.africa/users/100i) | [@DrCod](https://github.com/DrCod) |
