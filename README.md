@@ -4,7 +4,7 @@ A starter solution code(including the best final solution iteration) to a machin
 
 Find link to final notebook [here](https://github.com/DrCod/Blood-Spectroscopy-Classification-using-Deep-Learning/blob/main/Final%20Solution%20Implementation.ipynb)
 
-Starter iteration utilized FFT features to train a neural network architecture in a single/multi-input fashion.
+Starter iteration utilized FFT(fast fourier transform) features to train a neural network architecture in a single/multi-input fashion.
 
 The ultimate goal of this project was to accurately identify the levels of different blood-based substrates from Near-Infrared Reflectance(NIR) spectral data.
 
