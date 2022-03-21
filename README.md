@@ -12,17 +12,17 @@ Full description of challenge and datasets acquisition can be accessed [here](ht
 
 # How to ran starter scripts in single/multi-input modes 
 
-- Using single input:
+# single input:
 
   python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
                   --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type single --model_name NN
                 
         
-- Using multi-input:
+# multiple inputs:
 
   python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
                   --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type double --model_name NN
 
-Run submission inference:
+# ran inference
 
 python make_submission.py --model_name NN --submission_dir path/to/submissions
