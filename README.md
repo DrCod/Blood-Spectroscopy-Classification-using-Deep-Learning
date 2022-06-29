@@ -23,7 +23,7 @@ Full description of challenge and datasets acquisition can be accessed [here](ht
   python train.py --train_csv Train.csv --test_csv Test.csv --use_threshold --use_smoothing --BATCH_SIZE  32 \
                   --EARLY_STOP --EPOCHS 100 --WEIGHT_DECAY 1e-6 --model_type double --model_name NN
 
-# ran inference
+# run inference
 
 python make_submission.py --model_name NN --submission_dir path/to/submissions
 
